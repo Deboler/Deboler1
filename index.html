@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+  <style>
+    body {
+      background-color: #f4f4f4; /* solid background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    img {
+      width: 300px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Website!</h1>
+
+  <p>This is a basic website with some cool features!</p>
+
+  <!-- Image -->
+  <img src="https://placekitten.com/300/200" alt="Cute kitten">
+
+  <br><br>
+
+  <!-- Hyperlink -->
+  <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+
+  <br><br>
+
+  <!-- Button with onClick event -->
+  <button class="btn" onclick="sayHello()">Click Me!</button>
+
+  <script>
+    function sayHello() {
+      alert("Hello there! You clicked the button.");
+    }
+  </script>
+
+</body>
+</html>
